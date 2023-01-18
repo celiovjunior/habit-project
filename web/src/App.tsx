@@ -1,15 +1,12 @@
-import Habit from "./components/Habit"
+import './styles/global.css'
 
 function App() {
 
   return (
     <div className="App">
-      <Habit />
-      <Habit />
-      <Habit />
-      <Habit />
-      <Habit />
-      <Habit />
+      <h1 className="bg-slate-700 px-2">
+        oie
+      </h1>
     </div>
   )
 }
