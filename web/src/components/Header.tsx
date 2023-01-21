@@ -6,7 +6,7 @@ import { NewHabitFunction } from './NewHabitForm';
 export function Header() {
   return(
     <div className='w-full max-w-3xl mx-auto flex items-center justify-between'>
-    <img src={logoImage} alt="Habits" />
+    <img src={logoImage} alt="" />
 
     <Dialog.Root>
       <Dialog.Trigger
