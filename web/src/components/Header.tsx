@@ -1,12 +1,12 @@
 import * as Dialog from '@radix-ui/react-dialog';
 import { Plus, X } from 'phosphor-react';
-import logoImage from '../assets/logo.svg';
 import { NewHabitFunction } from './NewHabitForm';
+import { LogoIcon } from './icons/logo-icon';
 
 export function Header() {
   return(
     <div className='w-full max-w-3xl mx-auto flex items-center justify-between'>
-    <img src={logoImage} alt="Logo do site Habits" />
+    <LogoIcon />
 
     <Dialog.Root>
       <Dialog.Trigger
